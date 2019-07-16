@@ -22,7 +22,7 @@ There are many approaches for developers to write
 * Proxy via a centralized server which calls the blockchain
 * Proxy via a local webserver such as NodeJS + Express
 
-Centralization risk.  Lots of third party libraries such as web3js eth.js ethers.js web3.py Netheruem and so on.  While these are fanstactic for seasoned developers, beging dAapps can be a daunting task.
+WHile there are a lot of third party libraries such as web3js eth.js ethers.js web3.py Netheruem and so on.  While these are fanstactic for seasoned developers, beging dAapps can be a daunting task.
 
 If a markup langauge such as the one proposed where to be introduced, a new type of "Web4" browsers could be written. 
 
