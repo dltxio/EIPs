@@ -22,9 +22,9 @@ There are many approaches for developers to write
 * Proxy via a centralized server which calls the blockchain
 * Proxy via a local webserver such as NodeJS + Express
 
-WHile there are a lot of third party libraries such as web3js eth.js ethers.js web3.py Netheruem and so on.  While these are fanstactic for seasoned developers, beging dAapps can be a daunting task.
+While there are a lot of third party libraries such as web3js eth.js ethers.js web3.py Netheruem and so on.  While these are fanstactic for seasoned developers, beging dAapps can be a daunting task.
 
-If a markup langauge such as the one proposed where to be introduced, a new type of "Web4" browsers could be written. 
+If a markup langauge such as the one proposed where to be introduced, a new type of "Web3" browsers could be written. 
 
 
 ## Specification
@@ -38,6 +38,8 @@ The rationale fleshes out the specification by describing what motivated the des
 ## Backwards Compatibility
 <!--All EIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The EIP must explain how the author proposes to deal with these incompatibilities. EIP submissions without a sufficient backwards compatibility treatise may be rejected outright.-->
 All EIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The EIP must explain how the author proposes to deal with these incompatibilities. EIP submissions without a sufficient backwards compatibility treatise may be rejected outright.
+
+##
 
 ## Test Cases
 <!--Test cases for an implementation are mandatory for EIPs that are affecting consensus changes. Other EIPs can choose to include links to test cases if applicable.-->
