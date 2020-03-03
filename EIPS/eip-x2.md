@@ -1,19 +1,21 @@
 ---
 eip: <to be assigned>
-title: Ethereum Markup Language
+title: Blockchain based invoices
 author: Lucas Cullen (@BitcoinBrisbane)
 discussions-to: <URL>
 status: Draft
 type: <Standards Track (Core, Networking, Interface, ERC)  | Meta | Informational>
 category (*only required for Standard Track): <Core | Networking | Interface | ERC>
-created: 2019-04-29
+created: 2020-03-03
 ---
 
 ## Simple Summary
-Define a markup language similar to HTML for developers to write dApps in.
+Define a smart contract interface for PEPPOL Service Providers to implement the Australia-New Zealand extension of the PEPPOL BIS 3.0 Specification.
 
 ## Abstract
-This EIP proposes a mark up langage Ethereum Markup Language EML as a standard for which developers can write an interface to solidity based ethereum smart contarcts.
+Recently (Novemeber 2019), the Australian Tax Office (ATO) announced an XML specification for e-Invoicing.  The ATO states "E-invoices can be sent directly to a customer’s software if both systems are using the same standards, even if the buyer and supplier are using different software. In Australia, we are working with the software industry to use the Peppol standard, which is internationally established."
+
+"Within this repository is a range of artefacts that will help PEPPOL Service Providers implement and adopt the Australia-New Zealand extension of the PEPPOL BIS 3.0 Specification."
 
 ## Motivation
 There are many approaches for developers to write
@@ -21,10 +23,7 @@ There are many approaches for developers to write
 * Using tools such as metamask to call the 
 * Proxy via a centralized server which calls the blockchain
 * Proxy via a local webserver such as NodeJS + Express
-
-While there are a lot of third party libraries such as web3js eth.js ethers.js web3.py Netheruem and so on.  While these are fanstactic for seasoned developers, beging dAapps can be a daunting task.
-
-If a markup langauge such as the one proposed where to be introduced, a new type of "Web3" browsers could be written. 
+ 
 
 
 ## Specification
@@ -48,6 +47,9 @@ Test cases for an implementation are mandatory for EIPs that are affecting conse
 ## Implementation
 <!--The implementations must be completed before any EIP is given status "Final", but it need not be completed before the EIP is accepted. While there is merit to the approach of reaching consensus on the specification and rationale before writing code, the principle of "rough consensus and running code" is still useful when it comes to resolving many discussions of API details.-->
 The implementations must be completed before any EIP is given status "Final", but it need not be completed before the EIP is accepted. While there is merit to the approach of reaching consensus on the specification and rationale before writing code, the principle of "rough consensus and running code" is still useful when it comes to resolving many discussions of API details.
+
+https://softwaredevelopers.ato.gov.au/e-invoicing
+https://www.ato.gov.au/Business/E-invoicing/In-detail/E-invoicing-accredited-provider-list/
 
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
