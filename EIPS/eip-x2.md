@@ -35,6 +35,11 @@ contract Invoice {
   public unit IssueDate;
   public unit DueDate;
   public int InvoiceTypeCode;
+  public int InvoicePeriod;
+  public uint Price;
+  
+  public days PaymentTerms; //days
+  
   
 }
 ```
@@ -61,6 +66,13 @@ Test cases for an implementation are mandatory for EIPs that are affecting conse
 <!--The implementations must be completed before any EIP is given status "Final", but it need not be completed before the EIP is accepted. While there is merit to the approach of reaching consensus on the specification and rationale before writing code, the principle of "rough consensus and running code" is still useful when it comes to resolving many discussions of API details.-->
 The implementations must be completed before any EIP is given status "Final", but it need not be completed before the EIP is accepted. While there is merit to the approach of reaching consensus on the specification and rationale before writing code, the principle of "rough consensus and running code" is still useful when it comes to resolving many discussions of API details.
 
+### Relevante sections from the ATO xml
+
+#### Payment Terms
+https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/blob/master/Message%20examples/AU%20Invoice.xml#L193
+
+#### Tax Total
+https://github.com/A-NZ-PEPPOL/A-NZ-PEPPOL-BIS-3.0/blob/master/Message%20examples/AU%20Invoice.xml#L213
 
 ## References
 https://softwaredevelopers.ato.gov.au/e-invoicing
